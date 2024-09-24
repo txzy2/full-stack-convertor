@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd client && pnpm run dev\" \"cd server && start_server.bat\""
+    "dev": "concurrently \"cd client && pnpm run dev\" \"cd server && start_server.bat\"",
+    "setup_client": "cd client && pnpm install",
+    "setup_server": "cd server && setup_server.bat"
   },
   "keywords": [],
   "author": "",
